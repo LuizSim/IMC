@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Percentual de Água e IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title-box">
+        <h1>Percentual de Água e IMC</h1>
+    </div>
+    <div class="container">
+        <select id="age">
+            <option value="" disabled selected>Coloque sua idade...</option>
+        </select>
+        <select id="weight">
+            <option value="" disabled selected>Coloque seu peso...</option>
+        </select>
+        <select id="height">
+            <option value="" disabled selected>Coloque sua altura...</option>
+        </select>
+        
+        <button id="calculateButton">Calcular</button>
+        <button id="clearButton">Limpar</button>
+        
+        <div class="results-container">
+            <div id="waterResultBox" class="result-box">
+                <p id="waterResult"></p>
+            </div>
+            <div id="imcResultBox" class="result-box">
+                <p id="imcResult"></p>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <p>© 2024 Escola SESI Itajaí.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
